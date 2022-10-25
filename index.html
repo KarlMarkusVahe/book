@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card"></div>
+      <div class="card-content">
+        <span class="card-title">Add Book</span>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                    <input type="text" id="task1">
+                    <label for="task1">Autor</label>
+              </div>
+              <div class="input-field col s6">
+                    <input type="text" id="task2">
+                    <label for="task2">Pealkiri</label>
+             </div>
+              <div class="input-field col s6">
+                    <input type="text" id="task3">
+                    <label for="task3">ISBN</label>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col s6">
+                  <input type="submit" class="btn">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="card-action">
+        <span class="card-title" id="task-title">My Tasks</span>
+        <table id="table">
+          <tr>
+            <th>Autor</th>
+            <th>Pealkiri</th>
+            <th>ISBN</th>
+          </tr>
+        </table>
+        <a href="#" class="btn" id="del-tasks">Clear All Tasks</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
